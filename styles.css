@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    text-align: justify;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20p;
+    margin-right: 20px;
+    padding: 5px 20px;
+    background-color: antiquewhite;
+}
+
+section#hero{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    }
+
+section#hero h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+}
+
+section#hero h2{
+    font-size: 2rem;
+}
+
+section#perfil{
+    background-color: rgb(129, 223, 129);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.personal {
+    background-color: lightblue;  
+}
+section#personal h2{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.personal-detail{
+    padding: 20px;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-detail{
+    border: 5px solid lightblue;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+section#projects h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.centrado{
+    margin:10px auto;
+    display:block;
+}
+
+.formation {
+    background-color: lightblue;  
+}
+section#formation h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.formation-detail{
+    padding: 20px;
+}
+
+.contact{
+    background-color: lightgreen;
+}
+section#contact h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form{
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+}
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+
+}
+.btn{
+    text-align: center;
+    border-radius: 3px;
+    padding: 20 px 15px;
+    text-decoration: solid;
+    color: white;
+    background-color: green;
+    width: 280px;
+    margin-top: 15px;
+}
